@@ -16,6 +16,7 @@ import shoe6 from "../images/bestsellingproduct/shoe6.jpeg"
 import facebookline from "../images/mingcute_facebook-line.png"
 import instagram from "../images/mdi_instagram.png"
 import twiter from "../images/line-md_twitter.png"
+import contactimg from "../images/contactimg.png"
 
 
 export const Home = () => {
@@ -218,7 +219,7 @@ export const Home = () => {
             </section>
             <section className="subscribe-section">
                 <div className="subscribe-image">
-                    <img src="../src/images/contactimg.png" alt="Chicken Delivery" />
+                    <img src= {contactimg} alt="Chicken Delivery" />
                 </div>
 
                 <div className="subscribe-content">
